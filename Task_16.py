@@ -5,7 +5,7 @@
 
 import random
 
-num = int(input("Введите число -> "))
+num = int(input("Введите число, длину массива -> "))
 list = []
 for i in range(num):
     list.append(random.randint(1, int(num / 2)))
